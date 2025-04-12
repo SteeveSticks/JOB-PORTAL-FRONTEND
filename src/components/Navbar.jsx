@@ -6,7 +6,7 @@ import { useAuth } from "../context/authContext";
 import { BiSolidMessageDetail } from "react-icons/bi";
 import { IoNotifications } from "react-icons/io5";
 
-const NaNavbar = () => {
+const Navbar = () => {
   const { user, logout } = useAuth();
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -225,4 +225,4 @@ const NaNavbar = () => {
   );
 };
 
-export default NaNavbar;
+export default Navbar;
